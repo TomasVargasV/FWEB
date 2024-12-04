@@ -41,8 +41,8 @@ header{
     display: flex;
     background-color: #706CA0;
     height: 200px;
-    width: 160%;
-    border-radius: 100%;
+    width: 100%;
+    border-radius: 15%;
     margin-bottom: -75px;
 }
 
