@@ -34,7 +34,7 @@ header{
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 85%;
+    /* height: 100%; */
     width: 100%;
 }
 
@@ -63,43 +63,67 @@ header{
     font-size: larger;
 }
 
-
-
-
-
 .search-container {
-    max-width: 400px;
-    margin: 50px auto;
-    text-align: center;
-    padding: 10px;
-  }
-  
-  .search-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 80%;
+    gap: 10px;
+    margin-top: -30px;
+    margin-bottom: 20px;
+}
+
+.search-bar {
     padding: 10px;
     font-size: 16px;
     border: 2px solid #ccc;
     border-radius: 20px;
-    outline: none;
-    transition: border-color 0.3s;
-  }
-  
-  .search-bar:focus {
-    border-color: #007bff;
-  }
-  
-  .search-button {
+    width: 100%;
+}
+
+.search-button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #007bff;
-    color: white;
+    background-color: #F5DD54;
+    color: #5D5A4B;
     border: none;
     border-radius: 20px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    margin-top: 10px;
-  }
-  
-  .search-button:hover {
-    background-color: #0056b3;
-  }
+    width: 35%;
+}
+
+.itemsDiv{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.itemRow{
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.item{
+    background-image: url(../img/material-de-construcao-perto-de-mim-jpg.webp);
+    background-repeat: round;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    justify-content: center;
+    align-items: end;
+}
+
+.itemInfo{
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    width: 100%;
+    padding: 10px;
+    border-top: 1px solid #5D5A4B;
+    background-color: rgba(255, 255, 255, 0.8);
+}
