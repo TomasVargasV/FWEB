@@ -11,24 +11,6 @@ main{
     justify-content: space-between;
 }
 
-header{
-    display: flex;
-    padding: 15px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logoImg{
-    width: 30%;
-}
-
-.title{
-    margin: 10px 0  0 10px;
-    font-size: xx-large;
-    font-family: sans-serif;
-    color: #5D5A4B;
-}
-
 .purpleBackground{
     display: flex;
     align-items: center;

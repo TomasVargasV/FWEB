@@ -11,25 +11,6 @@ main{
     justify-content: space-between;
 }
 
-header{
-    display: flex;
-    padding: 15px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.logoImg{
-    width: 30%;
-    margin-left: 10px;
-}
-
-.title{
-    margin: 10px 0  0 10px;
-    font-size: x-large;
-    font-family: sans-serif;
-    color: #5D5A4B;
-}
-
 .purpleBackground{
     display: flex;
     align-items: center;
@@ -60,7 +41,7 @@ header{
 .formTitle {
     font-family: sans-serif;
     color: #F5DD54;
-    font-size: larger;
+    font-size: x-large;
 }
 
 .search-container {
