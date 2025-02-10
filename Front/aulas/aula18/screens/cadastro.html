@@ -22,14 +22,14 @@
             <div class="purpleCircle"></div>
             <div class="purpleSquare">
                 <form class="loginForm">
-                    <input class="formInput" type="text" placeholder="Nome">
-                    <input class="formInput" type="text" placeholder="Sobrenome">
-                    <input class="formInput" type="email" placeholder="Email">
-                    <input class="formInput" type="password" placeholder="Senha">
-                    <input class="formInput" type="number" placeholder="Telefone">
-                    <input class="formInput" type="number" placeholder="CPF/CNPJ">
-                    <input class="formInput" type="number" placeholder="CEP">
-                    <input class="formInput" list="estados" placeholder="UF">
+                    <input class="formInput" type="text" placeholder="Nome" id="nome">
+                    <input class="formInput" type="text" placeholder="Sobrenome" id="sobrenome">
+                    <input class="formInput" type="email" placeholder="Email" id="email">
+                    <input class="formInput" type="password" placeholder="Senha" id="senha">
+                    <input class="formInput" type="number" placeholder="Telefone" id="telefone">
+                    <input class="formInput" type="number" placeholder="CPF/CNPJ" id="cpf">
+                    <input class="formInput" type="number" placeholder="CEP" id="cep">
+                    <input class="formInput" list="estados" placeholder="UF" id="uf">
                     <datalist id="estados">
                         <option value="AC">AC</option>
                         <option value="AL">AL</option>
@@ -59,15 +59,14 @@
                         <option value="SE">SE</option>
                         <option value="TO">TO</option>
                     </datalist>
-                    <input class="formInput" type="text" placeholder="Cidade">
-                    <input class="formInput" type="text" placeholder="Bairro">
-                    <input class="formInput" type="text" placeholder="Rua">
-                    <input class="formInput" type="number" placeholder="Número">
+                    <input class="formInput" type="text" placeholder="Cidade" id="cidade">
+                    <input class="formInput" type="text" placeholder="Bairro" id="bairro">
+                    <input class="formInput" type="text" placeholder="Rua" id="rua">
+                    <input class="formInput" type="number" placeholder="Número" id="numero">
                     <div class="formButtonsDiv">
-                        <a href="./home.html">
-                            <input class="formButton" id="formButtonCadastro" type="button" onclick="validaBusca()"
-                                value="Cadastrar-se">
-                        </a>
+
+                        <button class="formButton" id="formButtonCadastro" type="submit">Cadastrar-se</button>
+
                         <a href="./index.html">
                             <input class="formButton" type="button" onclick="validaBusca()" value="Cancelar">
                         </a>

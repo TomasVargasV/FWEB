@@ -31,18 +31,26 @@ main{
 .purpleSquare{
     display: flex;
     flex-direction: column;
-    gap: 20px;
-    align-items: center;
+    gap: 100px;
     background-color: #706CA0;
     height: 100%;
     width: 100%;
+}
+
+.userStuff{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
 .accordion{
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: 80%   
+    margin: 0;
+    padding: 0;
 }
 .content{
     display: flex;
